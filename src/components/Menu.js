@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ScrollableComponent } from 'react';
 import { Link, withRouter } from "react-router-dom";
 
 import './css/Styles.css'
@@ -24,6 +24,12 @@ function Menu() {
   text: 'Contato'
 }
 ];
+//  const handleScroll = () => {
+
+// }
+// <ScrollableComponent
+//  onScroll={this.handleScroll}
+// />
     return (
       <ul className="menu__ul">
       {items.map(item => (

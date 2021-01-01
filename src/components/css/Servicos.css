@@ -1,15 +1,15 @@
-.home__div{
+.servicos__div{
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.home__capa{
+.servicos__capa{
   text-align: left;
   padding-right: 50px;
 }
-.home__h3{
+.servicos__h3{
   padding: 0px;
 }
 .home__p{
@@ -17,7 +17,7 @@
   text-align: left;
   line-height: 2;
 }
-.home__img{
+.servicos__img{
   height: 45vh;
   padding-left: 50px;
 }

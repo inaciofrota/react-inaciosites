@@ -10,6 +10,7 @@ import Contato from './Contato'
 import Menu from './Menu'
 
 import './css/Styles.css'
+import Rodape from "./Rodape";
 
 export default function Layout() {
   return (
@@ -17,6 +18,9 @@ export default function Layout() {
       <main className="app__content">
         <div className="app__header">
           <Header />
+        </div>
+        <div className="app__menu">
+          <Menu />
         </div>
         <div className="app__pages">
           <Switch>
@@ -28,8 +32,8 @@ export default function Layout() {
             <Route path="/contato" component={Contato} />
           </Switch>
         </div>
-        <div className="app__menu">
-          <Menu />
+        <div className="app__rodape">
+          <Rodape />
         </div>
       </main>
     </div>

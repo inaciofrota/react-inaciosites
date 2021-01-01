@@ -14,7 +14,6 @@
   text-align: center;
   width: 100%;
   background: rgb(69,57,204);
-background: linear-gradient(0deg, rgba(69,57,204,0), rgba(69,57,204,1));
 }
 .app__pages{
   text-align: center;
@@ -23,7 +22,12 @@ background: linear-gradient(0deg, rgba(69,57,204,0), rgba(69,57,204,1));
 .app__menu{
   text-align: center;
   width: 100%;
-  background-color: #4539CC;
+  background-color: #6c5ce7;
+}
+.app__rodape{
+  text-align: center;
+  width: 100%;
+  background-color: rgb(69,57,204);
 }
 /* Header */
 .header__h1{
@@ -36,6 +40,7 @@ background: linear-gradient(0deg, rgba(69,57,204,0), rgba(69,57,204,1));
 .header__p{
   font-family: 'Cinzel', serif;
   font-weight: 500;
+  color: #b2bec3;
 }
 /* Pages */
   .pages__h3{
@@ -45,6 +50,10 @@ background: linear-gradient(0deg, rgba(69,57,204,0), rgba(69,57,204,1));
   .pages__p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    padding: 25px 0;
+    text-align: left;
+    line-height: 2;
+    color: #dfe6e9;
   }
 /* Menu styles */
 .menu__ul{
@@ -61,4 +70,24 @@ background: linear-gradient(0deg, rgba(69,57,204,0), rgba(69,57,204,1));
   color: aliceblue;
   font-family: 'Cinzel', serif;
   font-weight: 500;
+}
+/* rodape */
+
+.rodape__div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #b2bec3;
+}
+.rodape__p{
+  font-family: 'Cinzel', serif;
+  font-weight: 500;
+  margin: 0 5px;
+}
+/* Scroll Events */
+.Scroll__h3{
+  position: absolute;
+  top: 180vh;
+  display: none;
 }
