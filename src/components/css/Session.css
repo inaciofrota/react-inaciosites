@@ -1,0 +1,31 @@
+.session__div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.session__left{
+  text-align: left;
+  padding-right: 50px;
+}
+.session__right{
+
+}
+.session__h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 0px;
+}
+.session__p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 25px 0;
+  text-align: left;
+  line-height: 2;
+  color: #dfe6e9;
+}
+.session__img{
+  height: 45vh;
+  padding-left: 50px;
+}

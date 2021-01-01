@@ -1,22 +1,21 @@
 import React from 'react'
-import './css/Styles.css'
-import './css/Servicos.css'
+import './css/Session.css'
 
-import ServicosImg from '../assets/img/Online-shopping/Servicos.png'
+import ServicosImg from '../assets/img/Servicos.png'
 
 
 const Servicos = () => {
   return(
-    <div className="servicos__div">
-        <div className="servicos__capa">
-          <h3 className="servicos__h3 pages__h3">Serviços</h3>
-          <p className="pages__p">Sites profissionais<br />
+    <div className="session__div">
+        <div className="session__left">
+          <h3 className="session__h3 session__h3">Serviços</h3>
+          <p className="session__p">Sites profissionais<br />
           Blogs<br />
           E-commerce</p>
 
         </div>
-        <div>
-          <img className="servicos__img" src={ServicosImg} alt="Servicos" />
+        <div className="session__right">
+          <img className="session__img" src={ServicosImg} alt="Servicos" />
         </div>
         
       </div>

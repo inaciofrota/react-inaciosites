@@ -1,18 +1,22 @@
-import React from "react";
-import { Switch, Route } from 'react-router-dom';
+import React, { useState } from "react";
+// modulos de estrutura
 import Header from './Header'
+
+import Rodape from "./Rodape";
+// modulos de sessão
 import Home from './Home'
 import Servicos from './Servicos'
 import Tecnologias from './Tecnologias'
 import Quemsou from './Quemsou'
 import Portfolio from './Portfolio'
 import Contato from './Contato'
-import Menu from './Menu'
-
+// style
 import './css/Styles.css'
-import Rodape from "./Rodape";
+
 
 export default function Layout() {
+  const [page, setPage] = useState(<Home />)
+
   return (
     <div>
       <main className="app__content">
@@ -20,17 +24,15 @@ export default function Layout() {
           <Header />
         </div>
         <div className="app__menu">
-          <Menu />
+          <button onClick={() => setPage(<Home />)}>Home</button>
+          <button onClick={() => setPage(<Servicos />)}>Serviços</button>
+          <button onClick={() => setPage(<Tecnologias />)}>Tecnologias</button>
+          <button onClick={() => setPage(<Quemsou />)}>Quem sou</button>
+          <button onClick={() => setPage(<Portfolio />)}>Portfolio</button>
+          <button onClick={() => setPage(<Contato />)}>Contato</button>
         </div>
         <div className="app__pages">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/servicos" component={Servicos} />
-            <Route path="/tecnologias" component={Tecnologias} />
-            <Route path="/quemsou" component={Quemsou} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contato" component={Contato} />
-          </Switch>
+          {page}
         </div>
         <div className="app__rodape">
           <Rodape />
