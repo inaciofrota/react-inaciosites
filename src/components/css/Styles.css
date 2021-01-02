@@ -42,19 +42,21 @@
   font-family: 'Cinzel', serif;
   font-weight: 500;
   color: #b2bec3;
+  font-size: 0.9em;
 }
 
 /* Menu styles */
 .app__menu button{
   border: none;
   cursor: pointer;
-  color: aliceblue;
+  color: #ffffff;
   font-family: 'Cinzel', serif;
   font-weight: 500;
   background-color: inherit;
 }
-.app__menu button:hover{
+.app__menu button:hover, .app__menu button:active{
   color: #fff;
+  text-shadow: 0 0 3px #fff;
 }
 
 /* rodape */

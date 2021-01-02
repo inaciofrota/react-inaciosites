@@ -5,7 +5,7 @@ const Tecnologias = () => {
       <div className="session__div">
         <div className="session__left">
           <h3 className="session__h3 session__h3">Tecnologias</h3>
-          <p className="session__p">Web Desing ( Html- Css - Javascript)<br />
+          <p className="session__p">Html- Css - Javascript)<br />
           React JS<br />
           </p>
 

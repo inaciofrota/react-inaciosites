@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState , useEffect } from "react";
+import { TimelineLite, Power3 } from 'gsap'
+
+
+
 import './css/Session.css'
 
 import HomeImg from '../assets/img/Home.png'
 
 const Home = () => {
+
   return(
       <div className="session__div">
         <div className="session__left">
