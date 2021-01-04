@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/Session.css'
+import '../css/Session.css'
 
 import ContatoImg from '../assets/img/Contato.png'
 

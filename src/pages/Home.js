@@ -3,7 +3,7 @@ import { TimelineLite, Power3 } from 'gsap'
 
 
 
-import './css/Session.css'
+import '../css/Session.css'
 
 import HomeImg from '../assets/img/Home.png'
 
